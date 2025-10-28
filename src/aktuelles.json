@@ -1,0 +1,15 @@
+{
+  "events": {
+    "exhibition": [
+      {
+        "id": "1", "image": "/klosterbenediktbeuern.jpg", "date": "Ab 2026", "location": "Benediktbeuern Kloster / Benediktbeuern", "link": "https://www.kloster-benediktbeuern.de/"
+      }
+    ],
+
+    "onlineshop": [
+      {
+        "id": "1", "image": "/saatchi-art.png", "information": "zum Saatchi Art Onlineshop", "link": "https://www.saatchiart.com/en-de/all?hitsPerPage=100&query=lennart%20erschler"
+      }
+    ]
+  }
+}

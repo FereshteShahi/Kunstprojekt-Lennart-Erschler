@@ -1,0 +1,29 @@
+.back-to-home {
+    position: absolute;
+    top: 40px;
+    display: block;  
+  }
+
+  .arrow-back {
+    width: 14px;
+    height: 21px;
+  }
+
+  @media (min-width: 768px) {
+    .back-to-home {
+        position: absolute; 
+        top: 196px;
+        display: block;
+    }
+
+    .arrow-back {
+        width: 16px;
+        height: 23px;
+    }
+  }
+
+  @media (min-width: 1180px) {
+    .back-to-home {
+        display: none;
+    }
+  }

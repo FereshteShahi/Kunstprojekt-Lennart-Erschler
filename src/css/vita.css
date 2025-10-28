@@ -1,0 +1,205 @@
+.slide {
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .sliders_group {
+    position: relative;
+  }
+  
+  #hero-img {
+    width: 100%;
+    height: auto;
+    transition: opacity 3s ease-in-out; 
+    margin-bottom: 100px;
+  }
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 80px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.textGap {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.vitaText {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* border: 1px solid red; */
+}
+
+.name {
+    font-size: 32px;
+    letter-spacing: 6px;
+}
+
+.fontNumber {
+    font-size: var(--fontsize-vita-numbers-desktop);
+    letter-spacing: var(--vita-numbers-letterspacing);
+    height: 24px;
+    align-self: center;
+}
+
+.fontText {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: var( --vita-text-letterspacing);
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* border: 1px solid red; */
+}
+
+@media (max-width: 1180px) {
+    .fontNumber {
+        font-size: 14px;
+        letter-spacing: var(--vita-numbers-letterspacing);
+        height: 20px;
+        align-self: center;
+    }
+    
+    .fontText {
+        font-size: var(--fontsize-vita-text-tablet);
+        font-weight: 300;
+        letter-spacing: var( --vita-text-letterspacing);
+    }
+
+    .textGap {
+        display: flex;
+        flex-direction: row;
+        gap: 120px;
+    }
+
+    .vitaText {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        /* border: 1px solid red; */
+    }
+
+    .resume {
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        gap: 80px;
+        margin: auto;
+        /* border: 1px solid red; */
+    }
+
+    .name {
+        font-size: 28px;
+        letter-spacing: 6px;
+    }
+
+    .contact-box {
+        gap: 14px;
+        /* border: 1px solid red; */
+    }
+}
+
+@media (max-width: 1060px) {
+    .resume {
+        width: 700px;
+    }
+}
+
+@media (max-width: 900px) {
+    .resume {
+        width: 600px;
+    }
+}
+
+@media (max-width: 767px) {
+    .fontNumber {
+        font-size: 8px;
+        letter-spacing: var(--vita-numbers-letterspacing);
+        height: 16px;
+        align-self: center;
+    }
+    
+    .fontText {
+        font-size: var(--fontsize-vita-text-mobile);
+        font-weight: 300;
+        letter-spacing: var( --vita-text-letterspacing);
+    }
+
+    .textGap {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    .vitaText {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* border: 1px solid red; */
+    }
+
+    .resume {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        gap: 80px;
+        margin: auto;
+        /* border: 1px solid red; */
+    }
+
+    .name {
+        font-size: 22px;
+        letter-spacing: 4px;
+    }
+
+    .contact-box {
+        gap: 12px;
+        /* border: 1px solid red; */
+    }
+}
+
+@media (max-width: 600px) {
+    .resume {
+        width: 400px;
+        /* border: 1px solid red; */
+    }
+}
+
+@media (max-width: 530px) {
+    .resume {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        gap: 60px;
+        margin: auto;
+        /* border: 1px solid red; */
+    }
+}
+
+@media (max-width: 440px) {
+
+    h1 {
+        font-size: 18px;
+        letter-spacing: 4px;
+    }
+    .resume {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        gap: 60px;
+        margin: auto;
+        /* border: 1px solid red; */
+    }
+}

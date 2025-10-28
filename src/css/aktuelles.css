@@ -1,0 +1,27 @@
+.events-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:32px;
+}
+
+.dividing-line {
+    width: 100%;
+    border: 1px solid white;
+}
+
+@media (min-width: 768px) {
+    .events-container {
+        gap: 60px;
+    }
+}
+
+@media (min-width: 1180px) {
+    .events-container {
+        align-items: flex-start;
+        margin-left: 50px;
+        
+    }
+    
+}

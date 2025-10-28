@@ -1,0 +1,351 @@
+.hero-image {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(49 49 49 / 20%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  /* opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  box-sizing: border-box; */
+}
+
+.hero-blur.active {
+  opacity: 1;
+}
+
+.hero-blur p {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  max-width: 1000px;
+  margin: 0 auto; 
+  padding: 40px 40px;
+  font-size: 1.8rem;
+}
+
+.socialMedia {
+  margin: 0 40px;
+  }  
+
+h2 {
+  font-size: var(--fontsize-h2-desktop);
+  font-weight: var(--h2-desktop-weight);
+  letter-spacing: var(--h2-desktop-letterspacing);
+  margin: 0;
+}
+
+#social-media-h2 {
+  margin: 0px;
+}
+
+.TextSocial {
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-self: center;
+}
+
+#IconSocial {
+  width: 100px;
+  height: 100px;
+  max-width: 56px;
+  max-height: 56px;
+  filter: brightness(0) invert(1);
+}
+
+.instagram-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 60px;          /* reduce gap for smaller screens */
+  /* flex-wrap: nowrap;    allow items to wrap on small screens */
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.phone-frame {
+  border: 1px solid var(--hamburgermenu-backgroundcolor);
+  border-radius: 20px;
+  width: 100%;  
+  max-width: 500px; 
+  min-width: 500px; 
+  height: 100%;
+  max-height: auto;   
+  min-height: 540px;  
+  margin: 0 auto;     
+  justify-items: center;
+  transition: background-color 0.3s;
+}
+
+.phone-frame:hover {
+  background-color: var(--hamburgermenu-backgroundcolor);
+  cursor: pointer;
+}
+
+.instagram-media.phone-embed {
+  width: 300px !important;   
+  height: 100% !important; 
+  max-height: 620px !important;  
+  min-height: 620px !important;   
+  margin: 0px !important;
+}
+
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 1060px;
+  max-height: 600px;
+  min-width: 400px;
+  min-height: 600px;
+  overflow: hidden;
+  margin-top: 60px;
+  justify-self: center;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 600px;
+  max-width: 1060px;
+  min-width: 400px;
+  min-height: 600px;
+  border: 0;
+  border-radius: 20px;
+}
+
+
+
+@media (max-width: 1180px) {
+
+  .hero-image:hover .hero-blur {
+    opacity: 1 !important;
+    box-sizing: border-box;
+  }
+  .hero-image {
+    aspect-ratio: 16 / 9;
+  }
+
+  .hero-blur p {
+    font-size: 1.3rem;
+  }
+
+  .hero-blur.active {
+    opacity: 1;
+    box-sizing: border-box;
+  }
+
+  .instagram-container {
+    gap: 30px;
+  }
+
+  .instagram-media.phone-embed {
+    width: 100% !important;
+    max-width: 260px !important;
+    min-width: 260px !important;
+    height: 100% !important;  
+    max-height: auto !important;  
+    min-height: auto !important;   
+  }
+  
+  .phone-frame {
+    border: 1px solid var(--hamburgermenu-backgroundcolor);
+    border-radius: 20px;
+    width: 100%;  
+    max-width: 380px; 
+    min-width: 380px; 
+    height: 100%;
+    max-height: 540px;   
+    min-height: 540px; 
+    margin: 0; 
+    justify-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  .video-container {
+    min-height: 500px;
+    max-width: 800px;
+    
+  }
+
+  .video-container iframe {
+    min-height: 500px;
+    max-width: 800px;
+  }
+
+}
+
+
+@media (max-width: 890px) {
+
+  .instagram-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .phone-frame {
+    min-width: unset;
+  }
+
+  #social-media-h2 {
+    font-size: 24px;
+  }
+
+  .socialIcons {
+    gap: 24px;
+  }
+
+  #IconSocial {
+    width: 80px;
+    height: 80px;
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .hero-image {
+    height: calc(100vw * 1.7);
+  }
+
+  .hero-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-blur p {
+    font-size: 1.4rem;
+  }
+
+  .socialIcons {
+    gap: 24px;
+  }
+
+  #IconSocial {
+    width: 80px;
+    height: 80px;
+    max-width: 46px;
+    max-height: 46px;
+  }
+
+  .phone-frame {
+    width: 70%;        
+  }
+
+  .instagram-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;          /* reduce gap for smaller screens */
+     /* allow items to wrap on small screens */
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .video-container {
+    max-width: 400px;
+    min-height: 340px;
+  }
+
+  .video-container iframe {
+    max-width: 400px;
+    min-height: 340px;
+  }
+
+  .phone-frame {
+    border: 1px solid var(--hamburgermenu-backgroundcolor);
+    border-radius: 20px;
+    width: 100%;  
+    max-width: 380px; 
+    min-width: 380px; 
+    height: 100%;
+    max-height: 540px;   
+    min-height: 540px;  
+    justify-items: center;
+    transition: background-color 0.3s;
+  }
+
+  .instagram-media.phone-embed {
+    width: 100% !important;
+    max-width: 260px !important;
+    min-width: 260px !important;
+    height: 100% !important;  
+    max-height: 540px !important;  
+    min-height: 540px !important;   
+  }
+
+}
+
+@media (max-width: 480px) {
+  .phone-frame {
+    min-width: unset;
+  }
+
+  .card {
+    width: 100%;
+  }
+  
+  .video-container {
+    max-width: 100%;
+    min-height: 200px;
+    width: 100%;
+    min-width: unset;
+  }
+  
+  .video-container iframe {
+    max-width: 100%;
+    min-height: 200px;
+    width: 100%;
+    min-width: unset;
+  }
+
+  .socialIcons {
+    gap: 20px;
+  }
+
+  #social-media-h2 {
+    font-size: 22px;
+  }
+  
+  }

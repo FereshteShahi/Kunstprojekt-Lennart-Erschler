@@ -1,0 +1,77 @@
+.exhibition-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+.exhibition-image {
+    width: 320px;
+    height: 180px;
+
+}
+
+.events-images {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#numbers-size {
+    font-size: var(--fontsize-numbers-aktuelles-mobile);
+    font-weight: 200;
+}
+
+.text-size {
+    font-size: var(--fontsize-text-aktuelles-mobile);
+    font-weight: 200;
+}
+
+.exhibition-card a {
+    color: var(--main-fontcolor);
+}
+
+.exhibition-card a:hover {
+    color: var(--onlineshop-fontcolor);
+}
+
+@media (min-width: 768px) {
+
+    .exhibition-card {
+        gap: 40px;
+    }
+    .exhibition-image {
+       width: 436px;
+       height: 232px;   
+    }
+
+    #numbers-size {
+        font-size: var(--fontsize-vita-numbers-tablet);
+    }
+
+    .text-size {
+        font-size: var(--fontsize-text-aktuelles-tablet);
+    }
+}
+
+@media (min-width: 1180px) {
+.exhibition-card {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+    
+}  
+
+.exhibition-image {
+    width: 380px;
+    height: 224px;
+    order: -1;
+    flex-shrink: 0;
+}  
+.text-size {
+    font-size: var(--fontsize-text-aktuelles-desktop);
+
+}
+}
+

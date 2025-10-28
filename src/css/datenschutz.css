@@ -1,0 +1,39 @@
+.datenschutz{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.datenschutz h2{
+    margin-bottom: 30px;
+}
+ 
+.datenschutz h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.datenschutz h4{
+    margin-bottom: 10px;
+}
+.datenschutz h5{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.datenschutz a{
+    color: var( --onlineshop-fontcolor);
+    text-decoration: none;
+}
+.datenschutz a:hover{
+    color:var( --hamburgermenu-backgroundcolor);
+}
+
+@media (min-width: 768px) {
+    .datenschutz{
+        /* padding: 50px; */
+    }
+}
+@media (min-width: 1180px) {
+.datenschutz{
+    padding: 100px;
+}
+}

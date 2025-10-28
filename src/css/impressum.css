@@ -1,0 +1,18 @@
+.article-impressum p{
+    margin-bottom: 35px;
+}
+.text-article {
+text-align: var(--text-align-datenschutz-impressum-desktop-tablet-mobile);
+margin-top: 35px;
+}
+.info-article p {
+margin-bottom: 0;
+text-align: var(--text-align-datenschutz-impressum-desktop-tablet-mobile);
+}
+
+@media (min-width: 1180px) {
+.article-impressum p {
+    font-size: var(--fontsize-longtext-desktop);
+}
+
+}

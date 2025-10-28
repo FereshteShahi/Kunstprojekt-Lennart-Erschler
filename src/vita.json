@@ -1,0 +1,199 @@
+{
+  "data": [
+    {
+      "title": "werdegang",
+      "jahrgang": [
+        {
+          "id": "1",
+          "number": "1958",
+          "text": "geb. in München"
+        },
+        {
+          "id": "2",
+          "number": "1976",
+          "text": "Ausbildung Graphik u. Design"
+        },
+        {
+          "id": "3",
+          "number": "1980",
+          "text": "Akademie / München"
+        },
+        {
+          "id": "4",
+          "number": "1984",
+          "text": "Film / Fernsehen / Kulisse, Baubühne"
+        },
+        {
+          "id": "5",
+          "number": "1994",
+          "text": "Freischaffender Künstler / Malerei"
+        },
+        {
+          "id": "6",
+          "number": "1998",
+          "text": "Mitglied des Berufsverband Bildender Künstler BBK München"
+        }
+      ]
+    },
+    {
+      "title": "einzelausstellungen",
+      "jahrgang": [
+        {
+          "id": "26",
+          "number": "2019",
+          "text": "Ärztezentrum HTPZ / München"
+      },
+      {
+          "id": "25",
+          "number": "2018",
+          "text": "Sardenhaus / Kultureferat / Westpark / München"
+      },
+      {
+          "id": "24",
+          "number": "2013",
+          "text": "m+p consulting / München"
+      },
+      {
+          "id": "23",
+          "number": "2010",
+          "text": "Kulturamt KUBIZ / Unterhaching"
+      },
+      {
+          "id": "22",
+          "number": "2009",
+          "text": "Üblacker Häusl / Biennale Haidhausen / München"
+      },
+      {
+          "id": "21",
+          "number": "2007",
+          "text": "Kanzlei Roller & Partner / München"
+      },
+      {
+          "id": "20",
+          "number": "2006",
+          "text": "ADF Solution München"
+      },
+      {
+          "id": "19",
+          "number": "2006",
+          "text": "EFDIS Bankensoftware Freising bei München"
+      },
+      {
+          "id": "18",
+          "number": "2005",
+          "text": "Tagungshotel Telekom Ismaning"
+      },
+      {
+          "id": "17",
+          "number": "2004",
+          "text": "Kulturamt KUBIZ / Unterhaching bei München"
+      },
+      {
+          "id": "16",
+          "number": "2002",
+          "text": "TV-WERK / Unterföhring"
+      },
+      {
+          "id": "15",
+          "number": "2001",
+          "text": "Staatsministerium für Arbeit, Familie, Soziales / München"
+      },
+      {
+          "id": "14",
+          "number": "2001",
+          "text": "LMU Klinikum Großhadern / München"
+      },
+      {
+          "id": "13",
+          "number": "2000",
+          "text": "Galerie Bouton / München"
+      },
+      {
+          "id": "12",
+          "number": "1999",
+          "text": "Kulturamt KUBIZ / Unterhaching"
+      },
+      {
+          "id": "11",
+          "number": "1998",
+          "text": "Berufsverband Bildender Künstler BBK Galerie der Künstler / München"
+      },
+      {
+          "id": "10",
+          "number": "1997",
+          "text": "Das Werk / München"
+      },
+      {
+          "id": "9",
+          "number": "1996",
+          "text": "Direkt-Anlage-Bank / München"
+      },
+      {
+          "id": "8",
+          "number": "1996",
+          "text": "Hypo-Immobilienservice / München"
+      },
+      {
+          "id": "7",
+          "number": "1995",
+          "text": "Art-Forum / Landshut"
+      },
+      {
+          "id": "6",
+          "number": "1993",
+          "text": "Dresdner-Bank / München"
+      },
+      {
+          "id": "5",
+          "number": "1993",
+          "text": "Kunstwerkstatt / Stuttgart"
+      },
+      {
+          "id": "4",
+          "number": "1992",
+          "text": "Hypo-Vereinsbank / München"
+      },
+      {
+          "id": "3",
+          "number": "1991",
+          "text": "Art-Galerie / Murnau"
+      },
+      {
+          "id": "2",
+          "number": "1987",
+          "text": "KUNST-FORUM / Burghausen"
+      },
+      {
+          "id": "1",
+          "number": "1985",
+          "text": "Rathaus Unterhaching"
+      }
+      ]
+    },
+    {
+      "title": "gemeinschaftsausstellungen",
+      "jahrgang": [
+        {
+          "id": "1",
+          "number": "1994",
+          "text": "Autorengalerie / München"
+        },
+        {
+          "id": "2",
+          "number": "1995",
+          "text": "Eigen Art / München Riem"
+        },
+        {
+          "id": "3",
+          "number": "1996",
+          "text": "Reithalle Galerie J. Heitsch / München"
+        },
+        {
+          "id": "4",
+          "number": "2002",
+          "text": "Große Kunstausstellung / Wasserburg"
+        }
+      ]
+    }
+  ]
+}

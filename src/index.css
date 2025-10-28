@@ -1,0 +1,247 @@
+/*Global css*/
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Comfortaa:wght@300..700&family=Diplomata+SC&family=DynaPuff:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Patrick+Hand+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+}
+  
+:root {
+  
+  /*Colors*/
+  --main-backgroundcolor: #a5a5a5;
+  --onlineshop-fontcolor: #646a6d;          /*Font Color für das Wort 'Onlineshop' aus dem Menü*/
+  --hamburgermenu-backgroundcolor: #CFCFCF;
+  --hamburger-icon-color: white;
+  --social-media-icon-color: white;
+  --close-icon-color: #646a6d;
+  --line-color: #646a6d;
+  --main-fontcolor: white;
+  --mobile-navigation-fontcolor: #646a6d;  /* Font Color für das Menütext in der Navigation für Mobile*/
+
+  /*Line Sizes*/
+  --line-size-desktop-with-logo: 385px;
+  --line-size-desktop-without-logo: 340px;
+  --line-size-tablet-with-logo: 290px;
+  --line-size-tablet-without-logo: 260px;
+  --line-size-mobile-with-logo: 224px;
+
+  /*Logo Sizes/Für Logo Image className="logo" */
+  --logo-size-desktop: 45px;   
+  --logo-size-tablet: 34px;    
+  --logo-size-mobile: 30px;   
+  
+  /*Text-align/Texteigenschaften*/
+  --text-align-hover-desktop-tablet-mobile: center;
+  --text-align-about-project-desktop-tablet: justify;
+  --text-align-about-project-mobile: center;
+  --text-align-datenschutz-impressum-desktop-tablet-mobile: left;
+
+  /*Fonts*/
+   --main-font: "Jost", serif;
+
+  /*Font Sizes Desktop*/
+  --fontsize-h1-desktop: 30px;
+  --h1-desktop-weight: 200;
+  --h1-desktop-letterspacing: 9px;
+
+  --fontsize-h2-desktop: 30px;
+  --h2-desktop-weight: 400;
+  --h2-desktop-letterspacing: 4px;
+
+  --fontsize-h3-desktop: 20px;
+  --h3-desktop-weight: 200;
+  --h3-desktop-letterspacing: 9px;
+
+  --fontsize-navigation-desktop: 20px;     /* Font Size für das Menü in der Navigation für Desktop*/
+  --navigation-desktop-weight: 200;
+  --navigation-desktop-letterspacing: 4px;
+  
+  --text-heroimg-hover-desktop: 30px;      /* Font Size für den Text auf der Hero Image Hover Effekt für Desktop */
+
+  --fontsize-longtext-desktop: 22px;       /* Font Size für alle langen Texte für Desktop: Über das Kunstprojekt/Impressum/Datenschutz */
+  --longtext-desktop-weight: 400;
+  --longtext-desktop-letterspacing: 4px;
+
+  --fontsize-text-footer-desktop: 16px;    /* Font Size für den Text im Footer für Desktop*/
+  --text-footer-desktop-weight: 200;
+  --text-footer-desktop-letterspacing: 4px;
+
+  --fontsize-vita-numbers-desktop: 16px;   /* Font Size für das Datum/Jahr in der Vita für Desktop*/
+  --vita-numbers-desktop-weight: 400;
+  --vita-numbers-letterspacing: 2px;
+  --fontsize-vita-text-desktop: 35px;      /* Font Size für den Text in der Vita für Desktop*/
+  --vita-text-desktop-weight: 400;
+  --vita-text-letterspacing: 2px;
+
+  --fontsize-text-aktuelles-desktop: 28px; /* Font Size für den Text auf der Seite Aktuelles für Desktop*/
+  --text-aktuelles-desktop-weight: 200;
+  --text-aktuelles-letterspacing: 2px;
+  --fontsize-numbers-aktuelles-desktop: 16px; /* Font Size für das Datum/Jahr auf der Seite Aktuelles für Desktop*/
+  --numbers-aktuelles-desktop-weight: 400;
+  --numbers-aktuelles-letterspacing: 2px;
+
+  /*Font Sizes Tablet*/
+  --fontsize-h1-tablet: 25px;
+  --h1-tablet-weight: 200;
+  --h1-tablet-letterspacing: 6px;
+  --fontsize-h2-tablet: 25px;
+  --h2-tablet-weight: 400;
+  --h2-tablet-letterspacing: 4px;
+  --fontsize-h3-tablet: 15px;
+  --h3-tablet-weight: 200;
+  --h3-tablet-letterspacing: 6px;
+ 
+  --fontsize-navigation-tablet: 18px;     /* Font Size für das Menü in der Navigation für Tablet */
+  --text-heroimg-hover-tablet: 18px;      /* Font Size für den Text auf der Hero Image Hover Effekt für Tablet */
+  --fontsize-longtext-tablet: 16px;       /* Font Size für alle langen Texte für Tablet: Über das Kunstprojekt/Impressum/Datenschutz */
+  --longtext-tablet-letterspacing: 4px;
+  --fontsize-text-footer-tablet: 15px;    /* Font Size für den Text im Footer für Tablet*/
+  --text-footer-desktop-letterspacing: 2px;
+  --fontsize-vita-numbers-tablet: 16px;   /* Font Size für das Datum/Jahr in der Vita für Tablet*/
+  --fontsize-vita-text-tablet: 24px;      /* Font Size für den Text in der Vita für Tablet*/
+  --fontsize-text-aktuelles-tablet: 24px; /* Font Size für den Text auf der Seite Aktuelles für Tablet*/
+
+  /*Font Sizes Mobile*/
+  --fontsize-h1-mobile: 20px;
+  --h1-mobile-weight: 200;
+  --h1-mobile-letterspacing: 4px;
+  --fontsize-h2-mobile: 20px;
+  --h2-mobile-weight: 400;
+  --h2-mobile-letterspacing: 2px;
+  --fontsize-h3-mobile: 10px;
+  --h3-mobile-weight: 200;
+  --h3-mobile-letterspacing: 4px;
+  
+  --fontsize-navigation-mobile: 16px;     /* Font Size für das Menü in der Navigation für Mobile */
+  --text-heroimg-hover-desktop: 15px;     /* Font Size für den Text auf der Hero Image Hover Effekt für Mobile */
+  --fontsize-longtext-mobile: 15px;       /* Font Size für alle langen Texte für Mobile: Über das Kunstprojekt/Impressum/Datenschutz */
+  --longtext-mobile-letterspacing: 4px;
+  --fontsize-text-footer-mobile: 8px;     /* Font Size für den Text im Footer für Mobile */
+  --text-footer-desktop-letterspacing: 1px;
+  --fontsize-vita-numbers-mobile: 14px;   /* Font Size für das Datum/Jahr in der Vita für Mobile*/
+  --fontsize-vita-text-mobile: 18px;      /* Font Size für den Text in der Vita für Mobile*/
+  --fontsize-text-aktuelles-mobile: 18px; /* Font Size für den Text auf der Seite Aktuelles für Mobile*/
+  --fontsize-numbers-aktuelles-mobile: 14px; /* Font Size für das Datum/Jahr auf der Seite Aktuelles für Mobile*/
+
+  /*Margin*/
+  --margin-desktop: 40px;
+  --margin-tablet: 40px;
+  --margin-mobile: 16px;
+
+}
+
+  body {
+    background-color: var(--main-backgroundcolor);
+    color: var(--main-fontcolor);  
+    
+  }
+  .main-container {
+    margin: 0 var(--margin-mobile);
+  }
+
+  .logo {
+    width: var(--logo-size-mobile);
+    height: var(--logo-size-mobile);
+  }
+
+  a {
+    text-decoration: none;
+
+  }
+
+  h1 {
+  font-size: var(--fontsize-h1-mobile);
+  font-weight: var(--h1-mobile-weight);
+  letter-spacing: var(--h1-mobile-letterspacing);
+  }
+
+  h2 {
+    font-size: var(--fontsize-h2-mobile);
+    font-weight: var(--h2-mobile-weight);
+    letter-spacing: var(--h2-mobile-letterspacing);
+    margin-top: 24px;
+    margin-left: 55px;
+  }
+
+  h3 {
+    font-size: var(--fontsize-h3-mobile);
+    font-weight: var(--h3-mobile-weight);
+    letter-spacing: var(--h3-mobile-letterspacing);
+  }
+
+  @media (min-width: 768px) {
+    
+    .main-container {
+      margin: 0 var(--margin-tablet);
+    }
+
+    .logo {
+      width: var(--logo-size-tablet); 
+      height: var(--logo-size-tablet);
+    }
+
+    h1 {
+      font-size: var(--fontsize-h1-tablet);
+      font-weight: var(--h1-tablet-weight);
+      letter-spacing: var(--h1-tablet-letterspacing);
+    }
+
+    h2 {
+      font-size: var(--fontsize-h2-tablet);
+      font-weight: var(--h2-tablet-weight);
+      letter-spacing: var(--h2-tablet-letterspacing);
+      margin-top: 100px;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: var(--fontsize-h3-tablet);
+      font-weight: var(--h3-tablet-weight);
+      letter-spacing: var(--h3-tablet-letterspacing);
+    }
+
+
+  }
+
+  @media (min-width: 1180px) {
+    
+    .main-container {
+      margin: 0 var(--margin-desktop);
+    }
+
+    .logo {
+      width: var(--logo-size-desktop);
+      height: var(--logo-size-desktop);
+    }
+
+    h1 {
+      font-size: var(--fontsize-h1-desktop);
+      font-weight: var(--h1-desktop-weight);
+      letter-spacing: var(--h1-desktop-letterspacing);
+    }
+
+    h2 {
+      font-size: var(--fontsize-h2-desktop);
+      font-weight: var(--h2-desktop-weight);
+      letter-spacing: var(--h2-desktop-letterspacing);
+    }
+
+    h3 {
+      font-size: var(--fontsize-h3-desktop);
+      font-weight: var(--h3-desktop-weight);
+      letter-spacing: var(--h3-desktop-letterspacing);
+    }
+  }
+
+
+
+  
+
+
+
+
+
+

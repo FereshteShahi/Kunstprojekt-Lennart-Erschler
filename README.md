@@ -17,5 +17,5 @@ Die Website dient als **Galerie für einen Künstler** und zeigt seine Werke sow
 - CSS
 
  ## Design (Figma)
-Die Figma-Designdateien sind hier verfügbar: [Zum Figma-Link](https://www.figma.com/design/fGhUq6rwNHVvCJQgGFA3OD/Figma-basics?node-id=1669-162202&p=f&t=6MFMF9t2bUYY6luO-0)
+Die Figma-Designdateien sind hier verfügbar: [Zum Figma-Link](https://www.figma.com/design/mFjrjy13N6lI2pjQK3tuYV/Untitled?t=qWOMwQDpmPJx2jfu-0)
 
